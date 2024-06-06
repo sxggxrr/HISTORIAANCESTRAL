@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 600px) {
+    /* Estilos específicos para pantallas pequeñas */
+}
+
+.book {
+    max-width: 700px;
+    margin: 70px auto;
+    background-color: #ffffff;
+    padding: 90px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1 {
+    color: #00796b;
+}
+
+.page {
+    margin-bottom: 20px;
+    display: none;
+}
+
+.page.show {
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+.page p {
+    font-size: 1.4em;
+    margin: 20px 0;
+}
+
+.page-image {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 1em;
+}
+
+.read-button {
+    background-color: #ffeb3b;
+    color: #000;
+}
+
+.read-button:hover {
+    background-color: #fdd835;
+}
+
+.nav-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+.nav-button.prev {
+    background-color: #8bc34a;
+}
+
+.nav-button.next {
+    background-color: #ff9800;
+}
+
+.nav-button:hover {
+    opacity: 0.8;
+}
+
+.home-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #007BFF;
+    color: white;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

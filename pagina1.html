@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epoca Prehispanica</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <button class="home-button" onclick="goToHome()">Volver a Inicio</button>
+    <div class="book">
+        <h1>El Tesoro de la Serpiente Emplumada</h1>
+        <div class="page show" id="page1">
+            <img src="img1.jpeg" alt="Castillo" class="page-image">
+            <p>En una época antigua, en el corazón de la selva prehispánica, habitaba una tribu de niños valientes y curiosos
+            .Entre ellos, se destacaba Tlaloc, un pequeño cazador con ojos brillantes y un espíritu aventurero. 
+            Un día, mientras exploraba el bosque, Tláloc descubrió un antiguo templo escondido bajo la vegetación, resguardado por la misteriosa Serpiente Emplumada.</p>
+            <button class="read-button" onclick="readText('En una época antigua, en el corazón de la selva prehispánica, habitaba una tribu de niños valientes y curiosos.Entre ellos, se destacaba Tlaloc, un pequeño cazador con ojos brillantes y un espíritu aventurero. Un día, mientras exploraba el bosque, Tláloc descubrió un antiguo templo escondido bajo la vegetación, resguardado por la misteriosa Serpiente Emplumada.')">Leer</button>
+            <button class="nav-button next" onclick="goToPage('page2')">Siguiente</button>
+        </div>
+        <div class="page" id="page2">
+            <img src="img2.jpeg" alt="Príncipe" class="page-image">
+            <p>La leyenda cuenta que la Serpiente Emplumada era la guardiana de un tesoro mágico capaz de traer prosperidad a la tribu, pero solo los más valientes y puros de corazón podrían acceder a él. Animado por la posibilidad de ayudar a su comunidad, Tlaloc decidió emprender la peligrosa misión de encontrar el tesoro.</p>
+            <button class="read-button" onclick="readText('La leyenda cuenta que la Serpiente Emplumada era la guardiana de un tesoro mágico capaz de traer prosperidad a la tribu, pero solo los más valientes y puros de corazón podrían acceder a él. Animado por la posibilidad de ayudar a su comunidad, Tlaloc decidió emprender la peligrosa misión de encontrar el tesoro.')">Leer</button>
+            <button class="nav-button prev" onclick="goToPage('page1')">Anterior</button>
+            <button class="nav-button next" onclick="goToPage('page3')">Siguiente</button>
+        </div>
+        <div class="page" id="page3">
+            <img src="img3.jpeg" alt="Felicidad" class="page-image">
+            <p>A lo largo de su travesía, Tlaloc se enfrentó a desafíos sobrenaturales, recorriendo laberintos oscuros y superando pruebas de astucia y coraje. En su camino, conoció a Xochitl, una niña sabia y conectada con la naturaleza, quien lo acompañó en su viaje, aportando calma e intuición a sus decisiones.</p>
+            <button class="read-button" onclick="readText('A lo largo de su travesía, Tlaloc se enfrentó a desafíos sobrenaturales, recorriendo laberintos oscuros y superando pruebas de astucia y coraje. En su camino, conoció a Xochitl, una niña sabia y conectada con la naturaleza, quien lo acompañó en su viaje, aportando calma e intuición a sus decisiones.')">Leer</button>
+            <button class="nav-button prev" onclick="goToPage('page2')">Anterior</button>
+            <button class="nav-button next" onclick="goToPage('page4')">Siguiente</button>
+        </div>
+        <div class="page" id="page4">
+            <img src="img4.jpeg" alt="Felicidad" class="page-image">
+            <p>Finalmente, tras superar la última prueba y enfrentarse a la Serpiente Emplumada, Tlaloc y Xochitl llegaron al corazón del templo. Allí, encontraron el tesoro centelleante compuesto por piedras preciosas incrustadas en una estatua ceremonial. Al tocar el tesoro con humildad y gratitud, las gemas cobraron vida, irradiando luz y energía positiva sobre la tribu.</p>
+            <button class="read-button" onclick="readText('Finalmente, tras superar la última prueba y enfrentarse a la Serpiente Emplumada, Tlaloc y Xochitl llegaron al corazón del templo. Allí, encontraron el tesoro centelleante compuesto por piedras preciosas incrustadas en una estatua ceremonial. Al tocar el tesoro con humildad y gratitud, las gemas cobraron vida, irradiando luz y energía positiva sobre la tribu.')">Leer</button>
+            <button class="nav-button prev" onclick="goToPage('page3')">Anterior</button>
+            <button class="nav-button next" onclick="goToPage('page5')">Siguiente</button>
+        </div>
+        <div class="page" id="page5">
+            <img src="img5.jpeg" alt="Felicidad" class="page-image">
+            <p>Desde ese día, la prosperidad y la armonía reinaron en la comunidad gracias al valor y la pureza de corazón de Tláloc y Xóchitl. Juntos, habían desbloqueado el poder del tesoro de la Serpiente Emplumada, demostrando que la verdadera riqueza reside en la amistad, el coraje y la solidaridad.</p>
+            <button class="read-button" onclick="readText('Desde ese día, la prosperidad y la armonía reinaron en la comunidad gracias al valor y la pureza de corazón de Tláloc y Xóchitl. Juntos, habían desbloqueado el poder del tesoro de la Serpiente Emplumada, demostrando que la verdadera riqueza reside en la amistad, el coraje y la solidaridad.')">Leer</button>
+            <button class="nav-button prev" onclick="goToPage('page4')">Anterior</button>
+        </div>
+    </div>
+    <script src="script3.js"></script>
+</body>
+</html>
